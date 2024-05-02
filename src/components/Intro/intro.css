@@ -1,122 +1,155 @@
-.ownlogo {
-    width: '30px';
-    height: '30px';
+.wrapper {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    background: whitesmoke;
 }
 
-.introContent {
-    position: absolute;
-    left: 80px;
-    top: 100px;
-    color: black;
-    width: auto;
+.container1 {
+    width: 50%;
+    height: 60%;
+    background: whitesmoke;
+}
 
+.container2 {
+    width: 50%;
+    height: 60%;
+    background: black;
+    border-left: 90px solid whitesmoke;
+    border-bottom: 550px solid transparent;
+    box-sizing: border-box;
+
+}
+
+.container3 {
+
+
+    width: 100%;
+    height: 40%;
+    background: #333;
+}
+
+/* firstpage content */
+.introhi {
+    position: absolute;
+    color: #333;
+    bottom: 510px;
+    right: 1240px;
+    font-Family: Raleway;
+    font-Size: 40px;
+    text-align: center;
+    margin-top: 120px;
 }
 
 .introName {
     position: absolute;
-    left: 80px;
-    top: 120px;
-    color: black;
-    width: auto;
+    color: #333;
+    bottom: 420px;
+    right: 900px;
+
+    font-Size: 80px;
+    font-family: Raleway;
+
 }
 
 .introText {
-    position: absolute;
-
-    left: 80px;
-    padding: 0 1 rem;
-    top: 200px;
-    color: gray;
-    width: auto;
-}
-
-.introPara {
     position: relative;
-    top: 593px;
-    color: white;
-    background-color: black;
-    right: 78px;
-    width: 209vh;
+    left: 170px;
+    color: #333;
+    top: 220px;
+    font-Family: Raleway;
+    font-Size: 25px;
 }
 
-.education {
+.symbol {
     position: relative;
-    top: 340px;
-    /* background-color:black; */
-
-    /* background-color: black; */
+    top: 140px;
+    display: flex;
+    left: 60px;
+    margin: 5px;
+    padding: 5px;
 }
 
-.keyCourses {
-    position: relative;
-    top: 360px;
-    margin-bottom: 0px;
-    padding-bottom: 0;
-}
-
-.list {
-    position: relative;
-    top:550px;
-    color: white;
-    background-color: black;
-    right: 78px;
-    /* baccolor: gainsboro; */
-    /* color: black; */
-
-}
-
-.moreList {
-
-    position: relative;
-    top: 550px;
-    color: white;
-    background-color: black;
-    right: 78px;
-}
-
-.icons {
-
-    position: relative;
-    left: 50px;
-    top: 100px;
-    justify-content: space-between;
-    margin: 0 0.75rem;
-
-}
 /* profile */
 .bg {
     position: relative;
-    left:1380px;
-    z-index: -1;
-    object-fit: cover;
-    height:75vh;
-    width: 525px;
-top:10px;
-}
-
-.expandContent {
-
-    position: absolute;
-    top: 950px;
-    left: 5px;
-    background: white;
-    border-radius: 2rem;
-    margin: 4px;
-}
-
-.listItem {
-    color: black;
-    padding: 3rem;
-    margin: 10px;
-}
-
-/* @media screen and(width:150px){
-    .bg{
-        right: -10px;
-    }
+    width: 65%;
+    height: 65vh;
+    left: 50px;
     
 }
-/* .lastcontent{
-    background-color: black;
-    color:white;
-} */
+
+.education {
+    display: flex;
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36.57px;
+}
+
+.introPara {
+    display: flex;
+    text-align: left;
+    margin-top: 20px;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.keyCourses {
+    display: flex;
+    text-align: left;
+    margin-top: 45px;
+}
+
+.list {
+    padding: 0%;
+    margin-top: 0%;
+    justify-content: space-between;
+    text-align: left;
+    color: white;
+    left: 22px;
+    width: 209vh;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20.8px;
+
+}
+
+.expandContent1 {
+    color: white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    font-family: Montserrat;
+    font-size: 15px;
+    border-top: none;
+    border-bottom: none;
+    justify-content: space-between;
+}
+
+.icons {
+    color: black;
+    background: gainsboro;
+    position: relative;
+    left: 90px;
+    top: 120px;
+    justify-content: space-between;
+    margin: 0 0.75rem;
+    display: flex;
+}
+
+.lastContent {
+    color: white;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+}
+
+.button {
+    color: white;
+    font-family: Montserrat;
+    font-size: 15px;
+    border-top: none;
+    border-bottom: none;
+}

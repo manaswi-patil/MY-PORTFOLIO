@@ -1,51 +1,111 @@
-.title {
-    position: absolute;
-    top: 1950px;
+.titles {
+    display: flex;
+    justify-content: center;
     color: black;
-    left: 520px;
-    line-height: 36.57px;
-    width: 200px;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 5px;
+    letter-spacing: 0.3554em;
+    margin-top: 250px;
+     border: 6px solid #000000; 
+width:15%;
+position: relative;
+   left:650px;
+    height: 70px;
+    /* display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: black;
+    border: 6px solid #000000;
+    align-items: center;
+    align-content: center;
     font-family: Montserrat;
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 0.3554em;
-    border: 8px solid #000000;
-    text-align: center;
-    /* width: 404px;
-height: 74px;
-top: 1272px;
-left: 756px;
-gap: 0px;
-opacity: 0px;
-font-family: Montserrat;
-font-size: 30px;
-font-weight: 700;
-line-height: 38.37px;
-
-text-align: center;
-color:black; */
-
-    /* height: 74px;
-top: 1272px;
-top: 1320px;
-gap: 0px;
-opacity: 0px;
-color:black;
-
-line-height: 38.37px;
-letter-spacing: 0.3554em;
-text-align: center;
-border: 8px 0px 0px 0px; */
+    margin-top: 250px; */
 }
-
-/* using now */
 
 .skillsTitle {
     color: black;
+    display: flex;
+    justify-content: center;
     position: relative;
-    top: 1550px;
-    left: 380px;
+    right:300px;
+    margin-top: 20px;
 }
+
+.logoName {
+    display: flex;
+    position:relative;
+    right: 65px;
+    color: black;
+    text-align: left;
+    margin-top: 90px;
+    justify-content: left;
+    padding-right: 40px;
+}
+
+.logoname1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.logoname2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.skillsTitle1 {
+    color: black;
+    display: flex;
+    justify-content: center;
+    
+    position: relative;
+    right:300px;
+    margin-top: 30px;
+}
+
+/* learning */
+
+.skillsTitle2 {
+    color: black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right:280px;
+    margin-top: 35px;
+}
+
+.logoname3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.logoname4 {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 20px;
+}
+
+/* 
+.skill1{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* using now */
+/* 
+
 
 .logos {
     position: relative;
@@ -53,22 +113,15 @@ border: 8px 0px 0px 0px; */
     left: 300px;
 
 }
-
-
-
-
-
-
-
 .logos4 {
     position: absolute;
-    top: 2650px;
+    top: 2550px;
     left: 260px;
 }
 
 .logos5 {
     position: absolute;
-    top: 1px;
+    top: 20px;
     left: 250px;
 }
 
@@ -87,7 +140,7 @@ border: 8px 0px 0px 0px; */
 
 .titleS1 {
     position: relative;
-    top: 1590px;
+    top: 1490px;
     left: 380px;
 
 }
@@ -95,7 +148,7 @@ border: 8px 0px 0px 0px; */
 .titleS2 {
 
     position: relative;
-    top: 1500px;
+    top: 1400px;
     left: 530px;
 }
 
@@ -113,13 +166,13 @@ border: 8px 0px 0px 0px; */
 
 .titleS5 {
     position: absolute;
-    top: 2480px;
+    top: 2300px;
     left: 360px;
 }
 
 .titleS6 {
     position: absolute;
-    top: 2480px;
+    top: 2300px;
     left: 520px;
 }
 
@@ -136,20 +189,20 @@ border: 8px 0px 0px 0px; */
 }
 
 /* learning */
-.skillsTitle1 {
+/* .skillsTitle1 {
     position: relative;
     color: black;
-    top: 1700px;
+    top: 1650px;
     left: 370px;
 }
 
 .learninglogo1 {
     position: absolute;
-    top: 2750px;
+    top: 2550px;
     left: 350px;
-}
+} */
 
-.learninglogo2 {
+/* .learninglogo2 {
     position: absolute;
     top: 10px;
     left: 170px;
@@ -164,32 +217,32 @@ border: 8px 0px 0px 0px; */
 
 .learninglogo4 {
     position: absolute;
-    top: 0px;
-    left: 180px;
-}
+    top: 2px;
+    left: 185px;
+}  */
 
-.logoName {
+/* .logoName {
     color: black;
     position: relative;
     left: 8px;
-}
+} */
 
 /* OTHERSKILLS */
-.skillsTitle2 {
+/* .skillsTitle2 {
     position: relative;
     color: black;
-    top: 2000px;
+    top: 1900px;
     left: 353px;
 }
 
 .logos6 {
     position: absolute;
-    top: 3100px;
+    top: 2800px;
     left: 340px;
 }
 
 .logos7 {
     position: relative;
     bottom: 90px;
-    left: 190px;
-}
+    left: 190px; */
+/* } */

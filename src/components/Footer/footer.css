@@ -1,37 +1,47 @@
+.footercontent {
+    height: 40vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 100px;
+
+
+}
+
+.text {
+    position: absolute;
+    left: 60px;
+}
+
 .moreicons {
     position: relative;
-    left: 280px;
-    top: 1650px;
-    color: black;
-    background-color: azure;
+    left: 290px;
+    top: 80px;
+    color: white;
+    border: 2px;
+    /* background-color: azure; */
     justify-content: space-between;
-margin:0 0.75rem;
-     
+    margin: 0 0.75rem;
+
 }
 
 .endcontent {
     position: relative;
     left: 220px;
-    top: 1780px;
-    color: black;
-    bottom: 600px;
-} 
+    top: 100px;
+    color: white;
+    bottom: 300px;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.55px;
+    text-align: left;
 
-
-.submitbtn {
-    position: relative;
-    color: black;
-    left: 130px;
-    padding: 10px;
-    bottom: 0px;
-   
-    width: 85px;
-
-font-family:Montserrat;
-
-    /* border:2px solid black; */
-    /* margin:4px; */
 }
+
+
+
 /* 
 .text {
     position: absolute;
@@ -41,23 +51,29 @@ font-family:Montserrat;
 } */
 .ico {
     position: relative;
-    left: 600px;
+    left: 590px;
     top: 3250px;
-    color: black;
+    color: white;
     border-radius: 4rem;
     height: 50px;
 
 }
-.button{
+
+.button {
     position: absolute;
-    left:10px;
-    top:50px;
-    
+    bottom: 3150px;
+    left: 10px;
+    color: white;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+  
+    letter-spacing: 0.1854em;
+    text-align: center;
+
 }
 
-.footer{
-    position:relative;
-    top:0px;
-    left:33px;
-    
+.second {
+    position: relative;
+    top: 2px;
 }

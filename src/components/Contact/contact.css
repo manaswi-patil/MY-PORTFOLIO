@@ -1,102 +1,179 @@
-.contactTitle {
-    position: relative;
-    top: 3000px;
-    color: black;
-    left: 500px;
-    border: 8px solid black;
-    width: 300px;
-    align-items: center;
-    height:74px;
-    font-family: Montserrat;
-font-size: 30px;
-font-weight: 700;
-line-height: 38.37px;
-letter-spacing: 0.3554em;
-text-align: center;
+ .contactTitle {
+     position: relative;
+     left: 650px;
+     display: flex;
+     justify-content: center;
+     color: black;
+     padding-top: 7px;
 
-}
+     font-family: Montserrat;
+     font-size: 30px;
+     font-weight: 700;
+     letter-spacing: 0.3554em;
+     margin-top: 250px;
+     border: 6px solid #000000;
 
-.contactform {
-    position: relative;
-    top: 3050px;
+     height: 78px;
+
+ }
+
+ .contactDesc {
+     position: relative;
+     left: 100px;
+     bottom: 100px;
+     display: flex;
+     justify-content: center;
+     color: black;
+     font-weight: 300;
+     font-size: 1rem;
+     margin-top: 450px;
+ }
+
+ .end {
+     position: relative;
+     right: 460px;
+     bottom: 60px;
+     display: flex;
+     justify-content: center;
+     color: black;
+     font-weight: 300;
+     font-size: 1rem;
+     margin-top: 100px;
+
+ }
+
+ .fielddata {
+     position: relative;
+     left: 300px;
+     margin-top: 20px;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .name1 {
+     margin: 8px;
+     padding: 15px;
+     width: 5px;
+     border-left: 3px solid black;
+     border-bottom: 3px solid black;
+     border-right: none;
+     border-top: none;
+     margin-top: 20px;
+ }
+
+ .name2 {
+     margin: 8px;
+     padding: 15px;
+     border-left: 3px solid black;
+     border-bottom: 3px solid black;
+     border-right: none;
+     border-top: none;
+ }
+
+ .name3 {
+     margin: 8px;
+     padding: 15px;
+     border-left: 3px solid black;
+     border-bottom: 3px solid black;
+     border-right: none;
+     border-top: none;
+ }
+
+ .name4 {
+     margin: 8px;
+     padding: 15px;
+     border-left: 3px solid black;
+     border-bottom: 3px solid black;
+     border-right: none;
+     border-top: none;
+ }
+
+ .name5 {
+     margin: 8px;
+     padding: 30px;
+     border-left: 3px solid black;
+     border-bottom: 3px solid black;
+     border-right: none;
+     border-top: none;
+ }
+
+ .submitbtn {
+     position: relative;
+     left: 150px;
+     display: flex;
+     color: black;
+     justify-content: center;
+     font-family: Montserrat;
+     border-left: 3px solid black;
+     border-right: 3px solid black;
+     border-left: 2px solid black;
+     border-right: 2px solid black;
+     margin: 6px;
+     height: 3vh;
+     width: 82px;
+     border-top-color: white;
+     border-bottom: white;
+ }
+
+ /* .contactform {
+   display:flex;
+   justify-content: center;
     color: black;
-    left: 450px;
+ 
     font-weight: 300;
     font-size: 1rem;
-}
-
-.btn {
-    position: relative;
-    left: 55px;
-    top: 10px;
-    color: black;
-
-}
-
-/* .contactDesc{
-    position: absolute;
-    left:40px;
 } */
-.contactDesc {
-    font-weight: 300;
-    font-size: 1rem;
+
+
+
+
+ /* 
+.para {
+    position: relative;
+    right: 70px;
+    top: 260px;
 }
 
-.fielddata {
+.onelinefrompara {
+    position: relative;
+    left: 105px;
+    top: 265px;
+}
+
+.end {
+    position: relative;
+    top: 350px;
+    left: 150px;
+}
+
+.submitbtn {
     position: relative;
     color: black;
-    left:2px;
+    left: 150px;
     padding: 10px;
-  top:80px;
-    margin:6px;
+    bottom: 0px;
+
+    width: 85px;
+
+    font-family: Montserrat;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    color: black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    margin: 4px;
+    height: 5vh;
+    width: 82px;
+    border-top-color: white;
+
+    border-bottom: white;
 
 }
-.name1{
-    margin:8px;
-    padding:15px;
-    width: 5px;
 
-}
-.name2{
-    margin:8px;
-    padding:15px;
-}
-.name3{
-    margin:8px;
-    padding:15px;
-}
-.name4{
-    margin:8px;
-    padding:15px;
-}
-.name5{
-    margin:8px;
-    padding:30px;
-}
+ */
 
-/* .end{
-    color:black;
-  
-    border:2px solid black;
-    width:200px;
-    position:relative;
-    left:150px;
-}  */
-
-
-
-
-.para{
-    position: relative;
-    right:100px;
-}
-.onelinefrompara{
-    position: relative;
-    left:105px;
-}
-.end{
-    position:relative;
-    top:50px;
-    right:100px;
-   
-}
+ .alldata {
+     display: flex;
+     bottom: 600px;
+     left: 50px;
+ }

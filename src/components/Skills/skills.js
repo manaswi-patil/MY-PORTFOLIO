@@ -19,104 +19,65 @@ import CLang from './../../assets/other skills/CLang.png';
 import Clanguage from './../../assets/other skills/Clanguage.png';
 const Skills = () => {
     return (
-        <div>
-            <section id="Skills">
-                <h1 h1 className='title'>SKILLS</h1>
-                <h3 className='skillsTitle'>USING NOW:</h3>
-                <div>
-                    <div div className='titleS1'>
+        <div id='skills'>
+                    <h1> <span className='titles'>SKILLS</span></h1>
+            
+                    <h3 className='skillsTitle'>USING NOW:</h3>
+                    <div className='logoname1'>
                         <img src={HTML5} alt="HTML5" style={{ width: '70px', height: '70px' }} ></img>
                         <p className='logoName'>HTML5</p>
-                    </div>
-                    < div className='titleS2'>
-                        <a className="skill1"></a>
                         <img src={css3} alt="css3" style={{ width: '70px', height: '70px' }} ></img>
-                        <p className='logoName'>CSS3</p>
-                        < div className='titleS3'>
-                            <img src={Javascript} alt="Javascript" style={{ width: '65px', height: '65px' }}></img>
-                            <p className='logoName'>JAVASCRIPT</p>
-
-                            < div className='titleS4'>
-                                <img src={reac} alt="React" style={{ width: '80px', height: '80px' }} ></img>
-                                <p className='logoName'>REACT</p><br />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <div div className='titleS5'>
+                        <p className='logoName' >CSS3</p>
+                        <img src={Javascript} alt="Javascript" style={{ width: '65px', height: '65px' }}></img>
+                        <p className='logoName'>JAVASCRIPT</p>
+                        <img src={reac} alt="React" style={{ width: '80px', height: '80px' }} ></img>
+                        <p className='logoName'>REACT</p>  </div>
+                    <div className='logoname2'>
                         <img src={mongodb} alt="mongodb" style={{ width: '70px', height: '70px' }} ></img>
                         <p className='logoName'>MONGODB</p>
-                    </div>
-                    < div className='titleS6'>
-                        <a className="skill1"></a>
+
                         <img src={nodejs} alt="nodejs" style={{ width: '80px', height: '80px' }} ></img>
                         <p className='logoName'>NODEJS</p>
-                        < div className='titleS7'>
-                            <img src={git} alt="Jagitt" style={{ width: '70px', height: '70px' }}></img>
-                            <p className='logoName'>GIT</p>
 
-                            < div className='titleS8'>
-                                <img src={figma} alt="figma" style={{ width: '80px', height: '80px' }} ></img>
-                                <p className='logoName'>FIGMA</p><br />
-                            </div>
-                        </div>
+                        <img src={git} alt="Jagitt" style={{ width: '70px', height: '70px' }}></img>
+                        <p className='logoName'>GIT</p>
+
+
+                        <img src={figma} alt="figma" style={{ width: '80px', height: '80px' }} ></img>
+                        <p className='logoName'>FIGMA</p>
                     </div>
-                </div>
 
-                <h3 className='skillsTitle1'>LEARNING:</h3>
-                <div>
-                    <div className='learninglogo1'>
-                        {/* <div className='logos1'> */}
+                    <h3 className='skillsTitle1'>LEARNING:</h3>
+                    <div className='logoname3'>
                         <img src={SASS} alt="SASS" style={{ width: '70px', height: '70px' }} ></img>
                         <p className='logoName'>SASS</p>
 
-                        <div className='learninglogo2'>
-                            <img src={mysql} alt="mysql" style={{ width: '70px', height: '70px' }} ></img>
-                            <p className='logoName'>MYSQL</p>
 
-                            <div className='learninglogo3'>
-                                <img src={bootstrap} alt="bootstrap" style={{ width: '60px', height: '60px' }}></img>
-                                <p className='logoName'>BOOTSTRAP</p>
+                        <img src={mysql} alt="mysql" style={{ width: '70px', height: '70px' }} ></img>
+                        <p className='logoName'>MYSQL</p>
 
-                                <div className='learninglogo4'>
-                                    <img src={TYPESCRIPT} alt="TYPESCRIPT" style={{ width: '80px', height: '80px' }} ></img>
-                                    <p className='logoName'>TYPESCRIPT</p><br />
-                                </div>
-                            </div>
-                        </div>
-                        {/* </div> */}
+
+                        <img src={bootstrap} alt="bootstrap" style={{ width: '60px', height: '60px' }}></img>
+                        <p className='logoName'>BOOTSTRAP</p>
+
+
+                        <img src={TYPESCRIPT} alt="TYPESCRIPT" style={{ width: '80px', height: '80px' }} ></img>
+                        <p className='logoName'>TYPESCRIPT</p>
                     </div>
-                </div>
-                <h3 className='skillsTitle2'>OTHER SKILLS:</h3>
-                <div>
-                    {/* < div className='logos4'>
-                        <img src={ANGIELSKI} alt="ANGIELSKI" style={{ width: '70px', height: '70px' }} ></img>
-                        <p className='logoName'>ANGIELSKI</p> */}
+                    <h3 className='skillsTitle2'>OTHER SKILLS:</h3>
+                    <div className='logoname4'>
 
-                    {/* < div className='logos5'>
-                            <a className="logo1"></a>
-                            <img src={HISZPANSKI} alt="HISZPANSKI" style={{ width: '80px', height: '80px' }} ></img>
-                            <p className='logoName'>HISZPANSKI</p> */}
-
-                    < div className='logos6'>
                         <img src={CLang} alt="CLang" style={{ width: '70px', height: '70px' }}></img>
                         <p className='logoName'>C++</p>
 
-                        < div className='logos7'>
-                            <img src={Clanguage} alt="TYPESCRIPT" style={{ width: '60px', height: '60px' }} ></img>
-                            <p className='logoName'>C</p><br />
-                        </div>
-                        {/* </div> */}
-                        {/* </div> */}
+                        <img src={Clanguage} alt="TYPESCRIPT" style={{ width: '60px', height: '60px' }} ></img>
+                        <p className='logoName'>C</p>
                     </div>
-                </div>
 
-            </section>
-        </div>
+                
+            </div>
 
-
+       
     )
 }
 
