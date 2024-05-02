@@ -19,7 +19,7 @@ const Aboutme = () => {
       <div className='Desc'>
         <span className='aboutmeDesc' />Manaswi Patil is a dedicated tech enthusiast with a BSC IT and MSC IT background from University Of Mumbai.Experienced in <br />
         programming database management and AI,with a passion for innovation.Commited for lifelong learning and collaborative <br />
-        problem solving.outside of tech,enjoys nature,photography,and writing.Ready to make positive impact in the industry.<p />
+        problem solving.outside of tech,enjoys nature,photography,and writing.Ready to make positive impact in the industry.Manaswi Patil now learning some new technologies. <p />
       </div>
       {expanded && (
         <div div className='aboutparts'>
