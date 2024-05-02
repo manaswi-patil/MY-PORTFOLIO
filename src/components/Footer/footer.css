@@ -1,0 +1,63 @@
+.moreicons {
+    position: relative;
+    left: 280px;
+    top: 1650px;
+    color: black;
+    background-color: azure;
+    justify-content: space-between;
+margin:0 0.75rem;
+     
+}
+
+.endcontent {
+    position: relative;
+    left: 220px;
+    top: 1780px;
+    color: black;
+    bottom: 600px;
+} 
+
+
+.submitbtn {
+    position: relative;
+    color: black;
+    left: 130px;
+    padding: 10px;
+    bottom: 0px;
+   
+    width: 85px;
+
+font-family:Montserrat;
+
+    /* border:2px solid black; */
+    /* margin:4px; */
+}
+/* 
+.text {
+    position: absolute;
+    right: 1880px;
+    bottom: 70px;
+
+} */
+.ico {
+    position: relative;
+    left: 600px;
+    top: 3250px;
+    color: black;
+    border-radius: 4rem;
+    height: 50px;
+
+}
+.button{
+    position: absolute;
+    left:10px;
+    top:50px;
+    
+}
+
+.footer{
+    position:relative;
+    top:0px;
+    left:33px;
+    
+}

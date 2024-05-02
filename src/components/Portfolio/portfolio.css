@@ -1,0 +1,89 @@
+.workstitle {
+    position: relative;
+    top: 2670px;
+    color: black;
+    left: 460px;
+    color: black;
+    width: 400px;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.3554em;
+    border: 8px solid #000000;
+    text-align: center;
+    height: 78px;
+    /* border: 4px solid black; */
+    /* width: 200px;
+    width: 482px;
+height: 74px;
+
+gap: 0px;
+opacity: 0px; */
+
+}
+
+.worksImgs {
+    position: relative;
+    top: 2800px;
+    left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 150vw;
+    max-width: 70rem;
+}
+
+.workdImg {
+
+    height: 15rem;
+    /* margin:0.5rem; */
+
+}
+
+.contentbtn {
+    position: relative;
+    left: 600px;
+    top: 1500px;
+
+
+}
+
+.all{
+    position:relative;
+    left:620px;
+top:2450px;
+    color:red;
+    background-color:white;
+}
+.pdflisting{
+    position: relative;
+    top:2500px;
+    display: flexbox;
+left:600px;
+}
+/* .coded{
+    position:absolute;
+    left:80px;
+    bottom:5px;
+    color:red;
+    background-color:white;
+}
+.projects{
+    position:absolute;
+    left:150px;
+    bottom:5px;
+    color:red;
+    background-color:white;
+/* } */
+/* .pdfs{
+    position: absolute;
+    left: 300px;
+    top: 200px;
+    color: black;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+} */ 

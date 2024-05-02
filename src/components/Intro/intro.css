@@ -1,0 +1,122 @@
+.ownlogo {
+    width: '30px';
+    height: '30px';
+}
+
+.introContent {
+    position: absolute;
+    left: 80px;
+    top: 100px;
+    color: black;
+    width: auto;
+
+}
+
+.introName {
+    position: absolute;
+    left: 80px;
+    top: 120px;
+    color: black;
+    width: auto;
+}
+
+.introText {
+    position: absolute;
+
+    left: 80px;
+    padding: 0 1 rem;
+    top: 200px;
+    color: gray;
+    width: auto;
+}
+
+.introPara {
+    position: relative;
+    top: 593px;
+    color: white;
+    background-color: black;
+    right: 78px;
+    width: 209vh;
+}
+
+.education {
+    position: relative;
+    top: 340px;
+    /* background-color:black; */
+
+    /* background-color: black; */
+}
+
+.keyCourses {
+    position: relative;
+    top: 360px;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+}
+
+.list {
+    position: relative;
+    top:550px;
+    color: white;
+    background-color: black;
+    right: 78px;
+    /* baccolor: gainsboro; */
+    /* color: black; */
+
+}
+
+.moreList {
+
+    position: relative;
+    top: 550px;
+    color: white;
+    background-color: black;
+    right: 78px;
+}
+
+.icons {
+
+    position: relative;
+    left: 50px;
+    top: 100px;
+    justify-content: space-between;
+    margin: 0 0.75rem;
+
+}
+/* profile */
+.bg {
+    position: relative;
+    left:1380px;
+    z-index: -1;
+    object-fit: cover;
+    height:75vh;
+    width: 525px;
+top:10px;
+}
+
+.expandContent {
+
+    position: absolute;
+    top: 950px;
+    left: 5px;
+    background: white;
+    border-radius: 2rem;
+    margin: 4px;
+}
+
+.listItem {
+    color: black;
+    padding: 3rem;
+    margin: 10px;
+}
+
+/* @media screen and(width:150px){
+    .bg{
+        right: -10px;
+    }
+    
+}
+/* .lastcontent{
+    background-color: black;
+    color:white;
+} */

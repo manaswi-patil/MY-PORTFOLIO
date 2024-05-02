@@ -1,0 +1,213 @@
+.navbar {
+    /* background-color:white; */
+    border-radius: 4rem;
+    height: 5rem;
+    width: 90vw;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    /* align-items:center; */
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+top:120px;
+}
+
+/* .logo{
+    object-fit:cover;
+    height:3rem;
+    width:4rem;
+} */
+.desktopMenuListItem {
+    margin: 1rem;
+    cursor: pointer;
+    color:white;
+    position: relative;
+    left: 1300px;
+    bottom:65px;
+}
+
+.desktopMenuListItem:hover {
+    color: black;
+    background-color:gainsboro;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid black;
+}
+
+.desktopMenuBtn {
+    background:white;
+    color:black;
+    border: none;
+    
+    /* display: flex;
+    align-items: center;
+
+    justify-content: center;
+    border-radius: 2rem;
+    position:fixed;
+    right:5px; */
+
+   position:absolute;
+        width: 7%;
+        border-radius:7rem;
+       bottom:45px;
+        height: 3rem;
+        left:1685px;
+}
+
+.introContent {
+    position: absolute;
+    left: 80px;
+    top: 100px;
+    color: black;
+    width: auto;
+
+}
+
+.introName {
+    position: absolute;
+    left: 80px;
+    top: 120px;
+    color: black;
+    width: auto;
+}
+
+.introText {
+    position: absolute;
+
+    left: 80px;
+    padding: 0 1 rem;
+    top: 200px;
+    color: gray;
+    width: auto;
+}
+
+.introPara {
+    position: relative;
+    top: 370px;
+   color:white;
+   background-color: black;
+   right:78px;
+   width: 210vh;
+}
+
+.education {
+    position: relative;
+    top: 1500px;
+    /* background-color:black; */
+    
+    /* background-color: black; */
+}
+
+.keyCourses {
+    position: relative;
+    top: 360px;
+   margin-bottom: 0px;
+   padding-bottom: 0;
+}
+.list {
+    position: relative;
+    top: 1000px;
+    color:white;
+background-color:black;
+right:78px;
+    /* baccolor: gainsboro; */
+    /* color: black; */
+
+}
+
+.moreList {
+    
+    position: relative;
+    top: 369px;
+    color:white;
+    background-color:black;
+    right:78px;
+}
+
+
+
+.bg {
+    position: relative;
+    left: 1080px;
+    z-index: -1;
+    object-fit: cover;
+    height: 70vh;
+    width:495px;
+    top:60px;
+
+}
+
+.expandContent {
+    /* position:absolute;
+    width: 7271px;
+height: 9199px;
+top: -5163px;
+left: -4422px;
+gap: 0px;
+opacity: 0px;
+color:blue; */
+/* width: 139px;
+height: 32px;
+top: 266px;
+left: 102px;
+gap: 0px;
+opacity: 0px;
+background: #FFFFFF; */
+
+    /* position: relative;
+    left: 15px;
+    top: 395px;
+    text-decoration-color: black;
+    border-radius: 7rem; 
+}
+
+.keyCourse {
+    position: absolute;
+    top: 30px;
+
+}
+
+.active {
+    color: blueviolet;
+    border-bottom: 3px solid pink;
+}
+
+.mobMenu {
+    position: static;
+    color: black;
+    margin: 10px;
+
+}
+
+.navMenu {
+    position: absolute;
+    top: 4rem;
+    right: 2 rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    height: fit-content;
+    /* min-width: 7rem; */
+    background:white;
+    border-radius: 2rem;
+    margin:4px;
+}
+.listItem{
+    color:black;
+    padding:3rem;
+    margin:10px;
+}
+/* @media screen and(max-width:720px){
+    .mobMenu{
+        display:flex;
+    }
+    .desktopMenu{
+        display:none;
+    }
+    .desktopMenuBtn{
+        display:none;
+    }
+} */

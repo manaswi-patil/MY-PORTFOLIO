@@ -1,0 +1,6 @@
+.ImageSection {
+    flex: 1;
+    background-image: url('/ownimg.jpg');
+    background-size: cover;
+    background-position: center;
+  }

@@ -1,0 +1,195 @@
+.title {
+    position: absolute;
+    top: 1950px;
+    color: black;
+    left: 520px;
+    line-height: 36.57px;
+    width: 200px;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.3554em;
+    border: 8px solid #000000;
+    text-align: center;
+    /* width: 404px;
+height: 74px;
+top: 1272px;
+left: 756px;
+gap: 0px;
+opacity: 0px;
+font-family: Montserrat;
+font-size: 30px;
+font-weight: 700;
+line-height: 38.37px;
+
+text-align: center;
+color:black; */
+
+    /* height: 74px;
+top: 1272px;
+top: 1320px;
+gap: 0px;
+opacity: 0px;
+color:black;
+
+line-height: 38.37px;
+letter-spacing: 0.3554em;
+text-align: center;
+border: 8px 0px 0px 0px; */
+}
+
+/* using now */
+
+.skillsTitle {
+    color: black;
+    position: relative;
+    top: 1550px;
+    left: 380px;
+}
+
+.logos {
+    position: relative;
+    top: 900px;
+    left: 300px;
+
+}
+
+
+
+
+
+
+
+.logos4 {
+    position: absolute;
+    top: 2650px;
+    left: 260px;
+}
+
+.logos5 {
+    position: absolute;
+    top: 1px;
+    left: 250px;
+}
+
+.logosA {
+    position: relative;
+    bottom: 95px;
+    left: 250px;
+}
+
+.logosB {
+    position: relative;
+    bottom: 95px;
+    left: 250px;
+}
+
+
+.titleS1 {
+    position: relative;
+    top: 1590px;
+    left: 380px;
+
+}
+
+.titleS2 {
+
+    position: relative;
+    top: 1500px;
+    left: 530px;
+}
+
+.titleS3 {
+    position: absolute;
+    top: 0px;
+    left: 165px;
+}
+
+.titleS4 {
+    position: absolute;
+    top: 0px;
+    left: 180px;
+}
+
+.titleS5 {
+    position: absolute;
+    top: 2480px;
+    left: 360px;
+}
+
+.titleS6 {
+    position: absolute;
+    top: 2480px;
+    left: 520px;
+}
+
+.titleS7 {
+    position: absolute;
+    top: 5px;
+    left: 175px;
+}
+
+.titleS8 {
+    position: relative;
+    bottom: 95px;
+    left: 175px;
+}
+
+/* learning */
+.skillsTitle1 {
+    position: relative;
+    color: black;
+    top: 1700px;
+    left: 370px;
+}
+
+.learninglogo1 {
+    position: absolute;
+    top: 2750px;
+    left: 350px;
+}
+
+.learninglogo2 {
+    position: absolute;
+    top: 10px;
+    left: 170px;
+
+}
+
+.learninglogo3 {
+    position: absolute;
+    top: 10px;
+    left: 160px;
+}
+
+.learninglogo4 {
+    position: absolute;
+    top: 0px;
+    left: 180px;
+}
+
+.logoName {
+    color: black;
+    position: relative;
+    left: 8px;
+}
+
+/* OTHERSKILLS */
+.skillsTitle2 {
+    position: relative;
+    color: black;
+    top: 2000px;
+    left: 353px;
+}
+
+.logos6 {
+    position: absolute;
+    top: 3100px;
+    left: 340px;
+}
+
+.logos7 {
+    position: relative;
+    bottom: 90px;
+    left: 190px;
+}
