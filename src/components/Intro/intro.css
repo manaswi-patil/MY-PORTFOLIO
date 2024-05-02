@@ -74,9 +74,9 @@
 .bg {
     position: relative;
     width: 65%;
-    height: 65vh;
+    height: 60vh;
     left: 50px;
-    
+    top:30px;
 }
 
 .education {
@@ -86,6 +86,9 @@
     font-size: 20px;
     font-weight: 700;
     line-height: 36.57px;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 .introPara {
@@ -95,12 +98,14 @@
     font-family: Open Sans;
     font-size: 15px;
     font-weight: 400;
+    padding-left: 50px;
 }
 
 .keyCourses {
     display: flex;
     text-align: left;
     margin-top: 45px;
+    padding-left: 50px;
 }
 
 .list {
@@ -115,7 +120,7 @@
     font-size: 15px;
     font-weight: 400;
     line-height: 20.8px;
-
+padding-left: 50px;
 }
 
 .expandContent1 {
@@ -127,6 +132,9 @@
     border-top: none;
     border-bottom: none;
     justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 20px;
 }
 
 .icons {
@@ -152,4 +160,7 @@
     font-size: 15px;
     border-top: none;
     border-bottom: none;
+}
+.moreList{
+    padding-left: 50px;
 }

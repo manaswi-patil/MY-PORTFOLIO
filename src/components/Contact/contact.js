@@ -41,11 +41,11 @@ const Contact = () => {
           <div>
             <div className='fielddata'>
               <form   >
-                <textarea input type="text" className='name1' placeholder="ENTER YOUR NAME*" /><br />
-                < textarea input type="email" className='name2' placeholder="ENTER YOUR EMAIL*" /><br />
-                < textarea input type="phone" className='name3' placeholder="ENTER YOUR PHONE NUMBER*" /><br />
-                <textarea input type="address" className='name4' placeholder="ENTER YOUR ADDRESS*" /><br />
-                <textarea className="name5" type="message" rows="5" placeholder='YOUR MESSAGE*'></textarea><br />
+                <input type="text" className='name' placeholder="ENTER YOUR NAME" required/><br />
+                < input type="email" className='name' placeholder="ENTER YOUR EMAIL" required /><br />
+                <  input type="phone" className='name' placeholder="ENTER YOUR PHONE NUMBER" required /><br />
+                < input type="address" className='name' placeholder="ENTER YOUR ADDRESS"  required/><br />
+                <textarea className="name" type="message" rows="5" placeholder='YOUR MESSAGE' required></textarea><br />
                 <button className='submitbtn' type="submit" value="send" >SUBMIT</button>
                 <div className='links'>
                   {/* name='your_name' 
